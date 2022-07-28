@@ -1,5 +1,6 @@
 import React from "react";
-import "./ExpenseForm";
+
+import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
   return (
@@ -20,6 +21,9 @@ const ExpenseForm = () => {
         <div className="new-expense__control">
           <label>Date</label>
           <input type="date" min="2019-01-01" max="2022-12-31" />
+        </div>
+        <div className="new-expense__actions">
+          <button type="submit">Add Expense</button>
         </div>
       </div>
     </form>
