@@ -1,0 +1,10 @@
+{
+  "vsicons.presets.jsOfficial": false,
+  "vsicons.associations.fileDefault.file": null,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact"
+  }
+}
