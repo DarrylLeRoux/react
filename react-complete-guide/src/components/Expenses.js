@@ -1,6 +1,7 @@
 import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
 
+// consumes the expense property from the ExpenseItem componen
 function Expenses(props) {
   return (
     <div>

@@ -1,5 +1,6 @@
 import Expenses from "./components/Expenses";
 function App() {
+  const num = 400;
   const expenses = [
     {
       id: "e1",
@@ -17,7 +18,7 @@ function App() {
     {
       id: "e4",
       title: "New Desk (Wooden)",
-      amount: 450,
+      amount: num.toFixed(2),
       date: new Date(2021, 5, 12),
     },
   ];
